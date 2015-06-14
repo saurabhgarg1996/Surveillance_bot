@@ -16,7 +16,8 @@ done the necessary connections according to the pins used in that code.
 Finally run that image processing code written in python.
 
 Enjoy shooting your target with that app.
-
+Here's the video link to the working model of our project :
+https://www.youtube.com/watch?v=NdMNgMruf24https://www.youtube.com/watch?v=NdMNgMruf24 
 Currently its target is a blue object you can change it by changing 
 threshold values.   
 
