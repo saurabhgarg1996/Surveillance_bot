@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <com.camera.simplemjpeg.MjpegView
+		android:id="@+id/mv"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+
+        android:layout_alignParentTop="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tap_shoot1"
+        android:id="@+id/tap_shoot"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="38dp"
+        android:background="@drawable/circuilar_button"
+        android:onClick="shoot_main" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:text="@string/connect"
+        android:id="@+id/bluetooth_button0"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/buttonshape"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/page2"
+        android:id="@+id/label0"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/tap_shoot"
+        android:layout_toStartOf="@+id/tap_shoot" />
+
+</RelativeLayout>

@@ -1,0 +1,85 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.camera.simplemjpeg.start_page"
+    android:background="@drawable/gun_final">
+
+    <Button
+        android:id="@+id/angry_btn1"
+
+        android:text="@string/automatic"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:onClick="onClick_btn1"
+        android:layout_below="@+id/angry_btn2"
+        android:layout_alignLeft="@+id/angry_btn2"
+        android:layout_alignStart="@+id/angry_btn2"
+        android:layout_marginTop="38dp" />
+
+    <Button
+        android:id="@+id/angry_btn2"
+
+        android:text="@string/manual"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:onClick="onClick_btn2"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/label"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Type here:"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="67dp" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:text="Connect"
+        android:id="@+id/bluetooth_button"
+        android:layout_below="@+id/label"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/buttonshape"
+        android:layout_alignLeft="@+id/angry_btn2"
+        android:layout_alignStart="@+id/angry_btn2"
+        android:layout_alignRight="@+id/angry_btn2"
+        android:layout_alignEnd="@+id/angry_btn2" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:text="@string/inst"
+        android:id="@+id/button_instructions"
+        android:layout_below="@+id/angry_btn1"
+        android:layout_marginTop="34dp"
+        android:background="@drawable/buttonshape"
+        android:layout_alignLeft="@+id/angry_btn1"
+        android:layout_alignStart="@+id/angry_btn1"
+        android:layout_alignRight="@+id/angry_btn1"
+        android:layout_alignEnd="@+id/angry_btn1"
+        android:onClick="onclick_instruction" />
+
+</RelativeLayout>

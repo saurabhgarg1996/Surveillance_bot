@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <com.camera.simplemjpeg.MjpegView
+        android:id="@+id/mv1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+
+        android:layout_alignParentTop="true" />
+
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="@string/up"
+        android:background="#0000FF"
+        android:id="@+id/up"
+
+        android:onClick="onclick_up"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="49dp" />
+
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="@string/left"
+        android:id="@+id/left"
+
+
+        android:onClick="onclick_left"
+        android:background="#0000FF"
+        android:layout_alignTop="@+id/right"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="@string/down"
+
+        android:id="@+id/down"
+        android:onClick="onclick_down"
+        android:background="#0000FF"
+        android:layout_above="@+id/tap_shoot1"
+        android:layout_alignLeft="@+id/up"
+        android:layout_alignStart="@+id/up" />
+
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="@string/right"
+        android:id="@+id/right"
+        android:onClick="onclick_right"
+        android:background="#0000FF"
+        android:layout_below="@+id/up"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="99dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/shoot"
+        android:id="@+id/tap_shoot1"
+        android:layout_marginBottom="46dp"
+        android:background="@drawable/circuilar_button"
+        android:onClick="shoot_main1"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:text="connect"
+        android:id="@+id/bluetooth_button1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/buttonshape"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/page1"
+        android:id="@+id/label1"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/up"
+        android:layout_alignEnd="@+id/up" />
+
+
+
+
+
+</RelativeLayout>
