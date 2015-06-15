@@ -1,3 +1,7 @@
+"""
+ITSP 2K15 TEAM ID 148
+PROJECT SURVEILLANCE BOT 
+"""
 import cv2
 import numpy as np
 import time

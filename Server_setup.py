@@ -1,7 +1,7 @@
 #!/usr/bin/python
 '''
-	Author: Igor Maculan - n3wtron@gmail.com
-	A Simple mjpg stream http server
+	ITSP 2K15 TEAM ID 148
+	PROJECT SURVEILLANCE BOT
 '''
 import cv2
 import Image
