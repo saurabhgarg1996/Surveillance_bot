@@ -1,4 +1,4 @@
-Hello and Welcome to our ITSP project : Surveillance bot.
+ITSP project : Surveillance bot.
 
 First you need to setup the server :
 (i) Make sure you have python installed in your laptop (preferred version 2.7.x)
